@@ -1,0 +1,68 @@
+.dataTables_length{
+  float: left;
+  margin-right: 6px;
+}
+
+.dt-buttons .btn-secondary {
+  color: #343a40;
+  background-color: #e8e9ec;
+  border-color: #e8e9ec;
+  border: 1px solid #ccc;
+  box-shadow: none;
+  font-weight: 600;
+}
+
+div.dataTables_wrapper div.dataTables_length label {
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  padding: 4px 8px;
+  background: #e8e9ec;
+  border-radius: 2px;
+}
+
+#dataTable_filter label{
+  background: #e8e9ec;
+  padding: 4px 8px;
+  border-radius: 2px;
+  font-weight: 600;
+  color: #343a40;
+}
+
+.modal-content {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #e9ecef;
+  background-clip: padding-box;
+  border: 1px solid #28a745;
+  border-radius: 2px;
+  box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,.5);
+  outline: 0;
+}
+
+.input-group-text{
+  font-weight: 600;
+  min-width: 125px;
+  max-width: 125px;
+}
+.input-group-text:after{
+  content: ":";
+}
+
+.user-panel {
+    border-bottom: 1px solid #fff !important;
+}
+
+.nav-link .fas {
+    width: 20px;
+}
+
+.nav-sidebar .nav-link p {
+    display: inline-block;
+    margin: 0 0 0 6px;
+}
